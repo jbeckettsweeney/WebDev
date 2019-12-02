@@ -5,23 +5,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Choose Grid Size</h2>
+    <div class="grid-container">
+    <div class="col1"></div>
+    <div class="g21">
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+        <h2>Choose Grid Size</h2>
     <form id="sizePicker">
         Grid Size:
         <input type="number" id="inputSize" name="size" min="1">
         <button type="button" id="submit">submit</button>
     </form>
-
-    <h2>Pick A Color</h2>
-    <input type="color" id="colorPicker">
-
+    </div>
+    <div class="g31"><p><b>Wavefunction Collapse</b> is an algorithm which takes in a bitmap and, after having dissected that bitmap, procedurally rearanges pieces in order to create a new bitmap which follows similar rules. This has numerous applications such as procedurally generating levels in a video game and generating art. With one's own implementation, the manner in which generation occurs can be modified, but with this tool you can experience this implementation by uploading an image, generating, and then downloading your new image. Enjoy! </p></div>
+    <div class="col2"></div>
+    <div class="g22">
     <h2>Design Canvas</h2>
     <canvas id="pixelCanvas" width="420" height="420"></canvas>
-    
+    </div><div class="g32">
     <h2>Actual Size</h2>
     <canvas id="actual" width="10" height="10"></canvas>
     <br><button type="button" id="img">save image</button>
-    
-    <script src="javascript.js"></script>
+    </div>
+    <script src="javascript.js"></script></div>
 </body>
 </html>
